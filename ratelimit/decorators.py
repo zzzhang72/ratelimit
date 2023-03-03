@@ -4,6 +4,7 @@ Rate limit public interface.
 This module includes the decorator used to rate limit function invocations.
 Additionally this module includes a naive retry strategy to be used in
 conjunction with the rate limit decorator.
+Add whl file.
 '''
 from functools import wraps
 from math import floor

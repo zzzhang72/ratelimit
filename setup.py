@@ -8,13 +8,13 @@ def readme():
         return infile.read()
 
 setup(
-    name='ratelimit',
+    name='ratelimit-whl-copy',
     version=ratelimit.__version__,
     description='API rate limit decorator',
     long_description=readme().strip(),
-    author='Tomas Basham',
-    author_email='me@tomasbasham.co.uk',
-    url='https://github.com/tomasbasham/ratelimit',
+    author='Chris Zhang',
+    author_email='zzzhang@uber.com',
+    url='https://github.com/zzzhang72/ratelimit',
     license='MIT',
     packages=['ratelimit'],
     install_requires=[],
